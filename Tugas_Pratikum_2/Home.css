@@ -1,19 +1,58 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace, monospace;
+}
+header{
+    background-color:#EEEEEE;
+    overflow: hidden;
+
+}
+header h1{
+    text-align: center;
+    padding: 15px;
+    font-family: monospace, monospace;
+}
+header img{
+    margin-left: 750px;
+
 }
 nav{
-    background-color: aqua;
+    background-color: #34495E;
     overflow: hidden;
 }
 nav a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color:#EEEEEE;
     cursor: pointer;
     padding: 20px;
+    text-align:;
 }
 nav a:hover{
     color: white;
+}
+#main .main_conten{
+    float: left;
+    width: 400px;
+    margin-left: 200px;
+    margin-top:  30px;
+    text-align: center;
+}
+#main .conten_berita{
+    float: right;
+    margin-top: 30px;
+    height: 30px;  
+}
+footer{
+    color: #95A5A6;
+    background-color:#34495E;
+    font-size: 7px;
+    text-align: center;
+    margin-top: 510px;
+}
+footer h1{
+    display: inline-block;
+    padding: 20px;
+
 }
